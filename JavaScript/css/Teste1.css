@@ -1,24 +1,37 @@
 .topo{
+    margin: 0px;
+    display: flex;
+
+
 }
     
 
 .box{
-    display: inline-flex;
+    
     margin-top: 0px;
     background-size: cover;
+    border-right: 1px solid black;
+    padding: 15px;
+    margin: 0px;
+    
+    
 
+}
+
+#data{
+    border-radius: 30px;
 }
 
 .nba{
     border-radius: 30px;
     width: 71px;
     height: 30px;
-    border: solid 1px;
     text-align: center;
     text-overflow: ellipsis;
 }
 
-.body{
+body{
     margin: 0px;
     padding: 0px;
+    color: white;
 }
