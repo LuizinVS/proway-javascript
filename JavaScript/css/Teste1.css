@@ -3,10 +3,10 @@
     
 
 .box{
-    display: inline-block;
-    border-right: solid 2px;
+    display: inline-flex;
     margin-top: 0px;
     background-size: cover;
+
 }
 
 .nba{
