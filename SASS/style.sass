@@ -1,0 +1,17 @@
+$cor: blue
+$corFundo: lightblue
+$cor2: silver
+$corFundo: lightgreen
+
+h1
+    color: $cor
+    background-color: $corFundo
+
+@mixin margem($valorMargem)
+    margin: $valorMargem
+    padding: 0
+
+p 
+    @include margem(8px)
+    color: $cor2
+    background-color: $corFundo

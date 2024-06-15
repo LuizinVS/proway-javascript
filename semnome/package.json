@@ -1,0 +1,19 @@
+{
+  "name": "primeiro_nodejs",
+  "version": "1.0.0",
+  "description": "Meu primeiro arquivo de NODEJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primeiro",
+    "nodeJs"
+  ],
+  "author": "Luiz Vinicius",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^4.2.0",
+    "mime": "^4.0.3"
+  }
+}
